@@ -4,6 +4,10 @@ Este projeto é parte de uma atividade executada durante o curso do Proa. Consis
 
 Desenvolvido utilizando HTML, CSS e JavaScript.
 
+### **Sistema de Login:**
+Este projeto inclui um pequeno sistema de login e para acessar as funcionalidades do hotel é necessário autenticar-se. Insira um nome de usuario de sua escolha e a senha padrão é **2678**.
+
+
 
 ### **Principais Funcionalidades:**
 1. **Reserva de Quartos:**
