@@ -38,3 +38,6 @@ Desenvolvido utilizando HTML, CSS e JavaScript.
 9. **Orçamento para Manutenção de Ar-Condicionado:**
    - Receba orçamentos de diferentes empresas para a manutenção de ar-condicionado.
    - Ao fim é identificado a empresa com o menor orçamento.
+  
+   - ### **Inspirando a Reflexão:**
+> "A utopia está lá no horizonte. Me aproximo dois passos, ela se afasta dois passos... Para que serve a utopia? Serve para isso: para que eu não deixe de caminhar." -
