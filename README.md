@@ -12,7 +12,7 @@ Desenvolvido utilizando HTML, CSS e JavaScript.
 
 2. **Cadastro de Hóspedes:**
    - Cadastre hóspedes, considerando gratuidades para crianças e descontos para idosos.
-   - Informe a quantidade de gratuidades, meias hospedagens e o custo total.
+   - Ao fim é informado a quantidade de gratuidades, meias hospedagens e o custo total.
 
 3. **Cadastro e Pesquisa de Hóspedes:**
    - Cadastre, pesquise e liste hóspedes com opções interativas.
@@ -29,12 +29,12 @@ Desenvolvido utilizando HTML, CSS e JavaScript.
 
 7. **Reserva de Restaurante:**
    - Verifique a disponibilidade do restaurante em diferentes dias e horários.
-   - Reserve o restaurante para eventos e exiba os detalhes da reserva.
+   - Reserve o restaurante para eventos e no final são exibidos os detalhes da reserva.
 
 8. **Comparação de Preços de Combustíveis:**
    - Avalie os preços de álcool e gasolina em diferentes postos.
-   - Determine onde é mais econômico abastecer.
+   - Ao fim é determinado onde é mais econômico abastecer.
 
 9. **Orçamento para Manutenção de Ar-Condicionado:**
    - Receba orçamentos de diferentes empresas para a manutenção de ar-condicionado.
-   - Identifique a empresa com o menor orçamento.
+   - Ao fim é identificado a empresa com o menor orçamento.
