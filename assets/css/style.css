@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;;
+    display: flex;
+    flex-direction: column;
+}
+
+title, script {
+    display: none;
+}
+
+#menu {
+    display: none;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: larger;
+}
+
+.modal {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.conteudoDoModal {
+    padding: 10px;
+    display: flex;
+    border-radius: 20px;
+    width: 400px;
+    height: 350px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-shadow: rgb(0, 0, 0) 0px 0px 10px 0px;
+}
+
+#dadosDoUsuario {
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 500px;
+    height: 450px;
+    background-color: white;
+    box-shadow: black 0px 0px 10px 0px;
+    text-align: center;
+}
+
+#dadosDoUsuario input {
+    margin: 5px;
+}
+
+#dadosDoUsuario p {
+    margin: 5px;
+}
+
+#nomeDoHotelSpan {
+    margin: 10px;
+    font-size:25px;
+    color: green;
+}
+
+.mensagemErro, .mensagemErroDados, .mensagemErroValores {
+    color: red;
+}
+
+
+button {
+    align-self: center;
+    width: 250px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+  
+button:hover {
+    background-color: green;
+}
+
+
+input[type="text"], input[type="password"], input[type="number"] {
+    border-radius: 10px;
+    background-color: #d9d5d5;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#dadosDoUsuario input[type="text"], input[type="password"] {
+    width: 300px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="number"]:focus {
+    background-color: #a4a4a4;
+    outline: none;
+}
+
+
+#dadosDoUsuario button {
+    display: flex;
+    align-items: center;
+    width: 360px;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 10px 0px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+#menu p {
+    flex-direction: row;
+    margin: 20px;
+    font-size: 25px;
+}
+
+#nomeDoUsuarioSpan {
+    font-size: 30px;
+}
+
+#btnSair {
+    background-color: rgb(189, 7, 7);
+}
+
+#btnSair:hover {
+    background-color: #8d0404;
+}

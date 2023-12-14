@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+
+  <div id="modalNomeDoHotel" class="modal">
+    <div class="conteudoDoModal">
+      <label for="nomeDoHotelInput">Olá, por favor informe um nome para o Hotel:</label>
+      <input type="text" id="nomeDoHotelInput" placeholder="Digite o nome do hotel" />
+      <button onclick="escolherNomeDoHotel()">Escolher nome do hotel</button>
+      <div class="mensagemErro"></div>
+    </div>
+  </div>
+
+  <div id="dadosDoUsuario" style="display: none">
+    <p>Olá, o nome do Hotel é: <span id="nomeDoHotelSpan">nomeDoHotel</span></p>
+    <p>Por favor, insira abaixo seu nome de Usuario e Senha:</p>
+    <input type="text" id="nomeDoUsuario" placeholder="Digite o seu nome" />
+    <input type="password" name="" id="senhaDoUsuario" placeholder="Digite o sua senha (2678)" />
+    <div class="mensagemErroDados"></div>
+    <button id="btnVerSenha" onclick="verSenha()">Ver senha</button>
+    <button onclick="validarDadosDoUsuario()">Entrar</button>
+  </div>
+
+  <div id="mensagemSaudacao" style="display: none"></div>
+
+  <div id="menu" style="display: none">
+    <span id="nomeDoUsuarioSpan"></span>
+    <p>Oque deseja a seguir?</p>
+    <button onclick="reservarQuarto()">Reserva de quartos</button>
+    <button onclick="cadastrarHospedes()">Cadastro de hospedes</button>
+    <button onclick="cadastrarLista()">Cadastrar lista</button>
+    <button onclick="cadastrarEvento()">Cadastrar evento</button>
+    <button onclick="cadastrarBuffet()">Cadastrar Buffet</button>
+    <button onclick="escolherAuditorio()">Escolher auditório</button>
+    <button onclick="reservarRestaurante()">Reservar restaurante</button>
+    <button onclick="abastecerCarros()">Abastecer carros</button>
+    <button onclick="calcularManutençao()">Calcular manutenção</button>
+    <button id="btnSair" onclick="sair()">Sair</button>
+  </div>
+
+  <div id="mensagemDespedida" style="display: none"></div>
+
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
